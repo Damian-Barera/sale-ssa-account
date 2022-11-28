@@ -1,4 +1,18 @@
 .main-bg {
-    background-color: gray;
-    color: white;
+    background-color: white;
+    color: black;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+.main-bg h2 {
+    font-size: 16px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.main-bg h3 {
+    font-size: 16px;
 }

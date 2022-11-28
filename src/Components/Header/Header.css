@@ -1,4 +1,57 @@
 .header {
-    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    background-color: peachpuff;
     color: black;
+}
+
+.imagen-header {
+    width: 100%;
+    object-fit: cover;
+}
+
+.header-text h1 {
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.div-ul-flex {
+    justify-content: center;
+    width: 100%;
+}
+
+.ul-flex {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+}
+
+.ul-flex li {
+    width: 100%;
+    list-style: none;
+}
+
+.ul-flex li a {
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: brown;
+    filter: brightness(75%);
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.ul-flex li a:hover {
+    filter: brightness(100%);
 }
